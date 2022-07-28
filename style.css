@@ -1,3 +1,7 @@
 .slider {
     filter: brightness(60%);
 }
+
+.div-size {
+    height: 180px;
+}
