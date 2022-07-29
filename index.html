@@ -97,7 +97,7 @@
             <div class="row row-cols-2 gap-4">
                 <div class="card mb-3 ps-0" style="max-width: 540px;">
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-12">
                             <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
@@ -199,7 +199,7 @@
         </section>
         <!-- elearning section -->
         <Section class="container mb-5">
-            <div class="d-flex">
+            <div class="d-flex  border rounded">
                 <div>
                     <img src="images/working.png" alt="">
                 </div>
@@ -233,7 +233,7 @@
         </Section>
         <!-- Ready to join section -->
         <section class="container mb-5">
-            <div class="bg-primary div-size d-flex align-items-center justify-content-evenly">
+            <div class="bg-primary div-size d-flex align-items-center justify-content-evenly border rounded">
                 <div class="p-4">
                     <h2 class="text-white">Ready to join?</h2>
                     <p class="text-white"><small>It is a long established fact that a reader will be distracted <br> by
@@ -244,7 +244,33 @@
                             looking at its layout</small></p>
                 </div>
                 <div class="p-4">
-                    <button class="btn btn-light text-primary p-3">Register Now</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light text-primary p-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Registration Open</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    To do your registration process final mail our Email.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
