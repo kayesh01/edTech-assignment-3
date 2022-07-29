@@ -1,5 +1,5 @@
 .slider {
-    filter: brightness(60%);
+    filter: brightness(40%);
 }
 
 .div-size {
@@ -16,4 +16,8 @@
     height: fit-content;
     width: 800px;
     margin-left: 160px;
+}
+
+.footer {
+    height: 250px;
 }
